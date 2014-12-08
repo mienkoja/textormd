@@ -7,7 +7,7 @@ For individuals who are willing (or seeking) to edit github wikis from RStudio a
 
 This function is an admittedly hackish workaround for the issue described [here](https://github.com/github/markup/issues/274), [here](https://github.com/gollum/gollum/issues/288), [here](http://stackoverflow.com/questions/11256433/how-to-show-math-equations-in-general-githubs-markdownnot-githubs-blog), and [here](http://stackoverflow.com/questions/12502440/markdown-formula-display-in-github). 
 
-The [entry](https://github.com/mienkoja/textormd/wiki/rmd_example) in the wiki of this repo is the result of a markdown document generated from the `knit2html()` function available within `knitr` (as implemented in the RStudio IDE). As can be seen, the `textormd()` function can be used in conjunction with the `knitr` package to yield type set math text within the GitHub wiki environment. 
+The [entry](https://github.com/mienkoja/textormd/wiki/rmd_example) in the wiki of this repo is the result of a markdown document generated from the `knit2html()` function available within `knitr` (as implemented in the RStudio IDE). As can be seen, the `textormd()` function can be used in conjunction with the `knitr` package to yield type set math text within the GitHub wiki environment. A link to the raw Rmd file is available [here](https://raw.githubusercontent.com/mienkoja/textormd/master/rmd_example.Rmd). 
 
 The function makes use of the `mathtex` web service described in more detail [here](http://www.forkosh.com/mathtex.html). Using the `textormd()` function, users should be able to 
 
